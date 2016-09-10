@@ -30,12 +30,12 @@ body.night-mode .pagination-title {
 body.night-mode .sbo-book-meta,
 body.night-mode .pagefoot, 
 body.night-mode .topbar {
-  background-color:#1C1C1C !important;
+  background-color: #1C1C1C !important;
 }
 
 body.night-mode .topbar .topnav > li a:hover,
 body.night-mode .topbar .topnav > li a:focus {
-  background-color:#222 !important;
+  background-color: #333 !important;
 }
 
 body.night-mode .topnav>li a,
@@ -44,24 +44,15 @@ body.night-mode .pagefoot a,
 body.night-mode .drop-content a.nav-icn.l0 span,
 body.night-mode .drop-content a.nav-icn.l1 span {
   color: #999 !important;
-  background: #333 !important;
+  background-color: #1C1C1C !important;
+    
 }
 
 body.night-mode .topnav .usermenu a.l1 svg,
 body.night-mode .topbar svg {
-    stroke: #999 !important;
-    fill: #999 !important;
+  stroke: #999 !important;
+  fill: #999 !important;
 }
-
-body.night-mode .drop-content a.nav-icn.l0 span,
-body.night-mode .drop-content a.nav-icn.l1 span
-body.night-mode .topnav>li a, 
-body.night-mode .pagefoot, 
-body.night-mode .pagefoot a {
-    color: #999 !important;
-    background: #333 !important;
-}
-
 
 body.night-mode .interface-control-btns,
 body.night-mode .interface-controls .search-in-archive,
