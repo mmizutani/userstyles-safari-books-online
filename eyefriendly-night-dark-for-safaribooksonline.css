@@ -40,9 +40,28 @@ body.night-mode .topbar .topnav > li a:focus {
 
 body.night-mode .topnav>li a,
 body.night-mode .pagefoot,
-body.night-mode .pagefoot a {
-  color: #777 !important;
+body.night-mode .pagefoot a,
+body.night-mode .drop-content a.nav-icn.l0 span,
+body.night-mode .drop-content a.nav-icn.l1 span {
+  color: #999 !important;
+  background: #333 !important;
 }
+
+body.night-mode .topnav .usermenu a.l1 svg,
+body.night-mode .topbar svg {
+    stroke: #999 !important;
+    fill: #999 !important;
+}
+
+body.night-mode .drop-content a.nav-icn.l0 span,
+body.night-mode .drop-content a.nav-icn.l1 span
+body.night-mode .topnav>li a, 
+body.night-mode .pagefoot, 
+body.night-mode .pagefoot a {
+    color: #999 !important;
+    background: #333 !important;
+}
+
 
 body.night-mode .interface-control-btns,
 body.night-mode .interface-controls .search-in-archive,
@@ -52,7 +71,7 @@ body.night-mode .interface-controls .font-control-activator,
 body.night-mode .interface-controls .sharing-controls,
 body.night-mode .interface-controls button,
 body.night-mode .pagefoot .icon-up {
-  color: #ABABAB !important;
+  color: #999 !important;
   background-color: #1C1C1C !important;
   border-color: #444 !important;
 }
@@ -191,12 +210,11 @@ body.night-mode *::-webkit-scrollbar-corner {
 }
 body.night-mode::-webkit-scrollbar-thumb,
 body.night-mode *::-webkit-scrollbar-thumb {
-  border-radius: 5px !important;
-  background: #282828 !important;
+  background: #6a6a6a !important;
 }
 body.night-mode::-webkit-scrollbar-thumb:hover,
 body.night-mode *::-webkit-scrollbar-thumb:hover {
-  background: #343434 !important;
+  background: #787878 !important;
 }
 
 /* 
