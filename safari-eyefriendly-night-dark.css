@@ -14,12 +14,16 @@ body.night-mode [class*="container"] {
 }
 */
 
+body.night-mode #sbo-rt-content code {
+  color: #cacaca !important;
+}
+
 body.night-mode,
 body.night-mode .nav-link, 
 body.night-mode .sbo-menu-top,
 body.night-mode #container,
 body.night-mode.video {
-  background-color: #1C1C1C !important;
+  background-color: #181818 !important;
 }
 
 body.night-mode .sbo-title h1, 
@@ -30,7 +34,7 @@ body.night-mode .pagination-title {
 body.night-mode .sbo-book-meta,
 body.night-mode .pagefoot, 
 body.night-mode .topbar {
-  background-color: #1C1C1C !important;
+  background-color: #181818 !important;
 }
 
 body.night-mode .topbar .topnav > li a:hover,
@@ -44,7 +48,7 @@ body.night-mode .pagefoot a,
 body.night-mode .drop-content a.nav-icn.l0 span,
 body.night-mode .drop-content a.nav-icn.l1 span {
   color: #999 !important;
-  background-color: #1C1C1C !important;
+  background-color: #181818 !important;
     
 }
 
@@ -63,7 +67,7 @@ body.night-mode .interface-controls .sharing-controls,
 body.night-mode .interface-controls button,
 body.night-mode .pagefoot .icon-up {
   color: #999 !important;
-  background-color: #1C1C1C !important;
+  background-color: #181818 !important;
   border-color: #444 !important;
 }
 
@@ -101,6 +105,7 @@ body.night-mode #sbo-rt-content div.informaltable table,
 body.night-mode #sbo-rt-content div.informaltable table td {
   color: #ABABAB !important;
   background-color: #181818 !important;
+  text-align: justify !important;
 }
 
 body.night-mode #sbo-rt-content strong,
@@ -190,7 +195,10 @@ body.night-mode.video .sbo-inpage-toc .section-title {
   border-color: #1C1C1C !important;  
 }
 
-/* Darken Chrome scrollbars */
+body.night-mode::-webkit-scrollbar {
+  width: 10px !important;
+  height: 10px !important;
+}
 body.night-mode::-webkit-scrollbar,
 body.night-mode::-webkit-scrollbar-track,
 body.night-mode::-webkit-scrollbar-corner,
@@ -201,11 +209,11 @@ body.night-mode *::-webkit-scrollbar-corner {
 }
 body.night-mode::-webkit-scrollbar-thumb,
 body.night-mode *::-webkit-scrollbar-thumb {
-  background: #6a6a6a !important;
+  background: #3a3a3a !important;
 }
 body.night-mode::-webkit-scrollbar-thumb:hover,
 body.night-mode *::-webkit-scrollbar-thumb:hover {
-  background: #787878 !important;
+  background: #585858 !important;
 }
 
 /* 

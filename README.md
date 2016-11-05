@@ -6,7 +6,7 @@ Custom stylesheets to make your experience with Safari Books Online more comfort
 ## How to use
 
 1. Subscribe [Safari Books Online](safaribooksonline.com).
-2. Install the Stylish addin for your favorite browsers such as Google Chrome, Firefox and Vivaldi.
+2. Install the Stylish addin for your favorite browsers such as [https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe](Google Chrome), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/) and [Vivaldi](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe).
 3. Get the custom styles from the style detail pages on [userstyles.org](https://userstyles.org).
    - [Boldface fonts for Safari Books Online](https://userstyles.org/styles/121794/boldface-fonts-for-safari-books-online) 
      (safari-boldface-fonts.css)
