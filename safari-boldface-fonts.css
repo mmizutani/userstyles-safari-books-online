@@ -44,6 +44,6 @@
 	.scalefonts #sbo-rt-content td, 
 	.scalefonts #sbo-rt-content ul, 
 	.scalefonts #sbo-rt-content ul ul {
-		font-family: system, -apple-system, "Helvetica Neue", Helvetica, Arial, Meiryo, "source sans pro", Verdana, sans-serif, serif, DejaVuSerif !important;
+		font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Meiryo, "source sans pro", Verdana, SeguoUI, Roboto, Oxygen, Ubuntu, Calibri, Tahoma, Arial, sans-serif !important;
 	}
 }
