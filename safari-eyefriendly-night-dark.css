@@ -105,7 +105,7 @@ body.night-mode #sbo-rt-content div.informaltable table,
 body.night-mode #sbo-rt-content div.informaltable table td {
   color: #ABABAB !important;
   background-color: #181818 !important;
-  text-align: justify !important;
+  /*text-align: justify !important;*/
 }
 
 body.night-mode #sbo-rt-content strong,
@@ -154,6 +154,10 @@ body.night-mode #sbo-rt-content tbody {
   /*background-color: transparent !important;*/
   background-color: #181818 !important;
   border-color: #1C1C1C !important;
+}
+
+body.night-mode #sbo-rt-content .cf {
+  color: #6377e6;
 }
 
 body.night-mode #sbo-rt-content .annotator-wrapper .annotator-modal-wrapper .annotator-widget textarea {
@@ -214,6 +218,31 @@ body.night-mode *::-webkit-scrollbar-thumb {
 body.night-mode::-webkit-scrollbar-thumb:hover,
 body.night-mode *::-webkit-scrollbar-thumb:hover {
   background: #585858 !important;
+}
+
+/* Distraction free mode */
+body.night-mode .sbo-menu-top .sbo-toc-container,
+body.night-mode.nav-collapsed header.topbar .topnav,
+body.night-mode .interface-controls .interface-control-btns,
+body.night-mode .interface-controls .sharing-controls .trigger .fa {
+  visibility: hidden;
+}
+body.night-mode .sbo-menu-top:hover .sbo-toc-container,
+body.night-mode.nav-collapsed header.topbar:hover .topnav,
+body.night-mode .interface-controls:hover .interface-control-btns,
+body.night-mode .interface-controls:hover .sharing-controls .trigger .fa {
+  visibility: visible;
+}
+body.night-mode .sbo-menu-top,
+body.night-mode .sbo-nav-top a.nav-link {
+  border: none;
+  background: none !important;
+}
+body.night-mode .sbo-nav-top a.nav-link {
+  opacity: 0;
+}
+body.night-mode .sbo-nav-top a.nav-link:hover {
+  opacity: 1;
 }
 
 /* 
@@ -279,5 +308,5 @@ scrollbar > scrollbarbutton:not([disabled="true"])[active="true"] {
   transition-timing-function: ease !important;
   -webkit-transition: background 1s !important;
   -webkit-transition-timing-function: ease !important;}
-
+  
 }
