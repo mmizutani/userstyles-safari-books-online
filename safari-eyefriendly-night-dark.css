@@ -238,10 +238,12 @@ body.night-mode .sbo-nav-top a.nav-link {
   border: none;
   background: none !important;
 }
-body.night-mode .sbo-nav-top a.nav-link {
+body.night-mode .sbo-nav-top a.nav-link,
+body.night-mode .pagefoot {
   opacity: 0;
 }
-body.night-mode .sbo-nav-top a.nav-link:hover {
+body.night-mode .sbo-nav-top a.nav-link:hover,
+body.night-mode .pagefoot:hover {
   opacity: 1;
 }
 
