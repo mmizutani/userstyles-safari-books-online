@@ -1,17 +1,16 @@
-# Eye-Frendly Styles for Safari Books Online
+# Eye-Friendly Styles for O'Reilly online books (formerly Safari Books Online)
 
-Custom stylesheets to make your experience with Safari Books Online more comfortable.
+Custom stylesheets to make your experience with O'Reilly online books more comfortable.
 
 
 ## How to use
 
-1. Subscribe [Safari Books Online](safaribooksonline.com).
-2. Install the Stylish addin for your favorite browsers such as [Google Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/) and [Vivaldi](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe).
-3. Get the custom styles from the style detail pages on [userstyles.org](https://userstyles.org).
-   - [Boldface fonts for Safari Books Online](https://userstyles.org/styles/121794/boldface-fonts-for-safari-books-online) 
-     (safari-boldface-fonts.css)
-   - [Eye-Friendly Night Dark for Safari Books Online](https://userstyles.org/styles/127423/eye-friendly-night-dark-for-safari-books-online) (safari-eyefriendly-night-dark.css)
-4. Enjoy your quality Safari study life.
+1. Subscribe [O'Reilly](https://learning.oreilly.com).
+2. Install the Stylus addin for your favorite browsers such as [Google Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) and [Vivaldi](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
+3. Install the UserCSS files directly from this GitHub repository:
+   - Boldface fonts for O'Reilly online books: [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/mmizutani/userstyles-safari-books-online/master/safari-boldface-fonts.user.css)
+   - Eye-Friendly Night Dark for O'Reilly online books: [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/mmizutani/userstyles-safari-books-online/master/safari-eyefriendly-night-dark.user.css)
+4. Enjoy your quality online book reading time!
 
 
 ## Sample Screenshots
